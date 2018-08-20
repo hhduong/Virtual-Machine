@@ -65,10 +65,7 @@ Do đó khi sử dụng card mạng này IP của máy ảo sẽ cùng với d�
   - Card NAT chỉ có thể giao tiếp với các card NAT trên các máy ảo khác.
   - Card NAT không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối. 
   - Tuy nhiên nhờ cơ chế NAT được tích hợp trong VMWare, máy tính ảo có thể gián tiếp liên lạc với mạng vật lý bên ngoài.
-- Card Host-only:
-  - Card Host-only chỉ có thể giao tiếp với card mạng ảo VMnet1 trên máy thật.
-  - Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.
-  - Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.
+- Card Host-only: Ở cơ chế này máy ảo được kết nối với VMnet có tính năng Host-only. VNnet Host-only kết nối ra một card mạng ảo tương ứng ngoài máy thật.
 - Lựa chọn cuối cùng đó là không cấu hình kết nối mạng.
 
 Ở đây tôi chọn NAT.
