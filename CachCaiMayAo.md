@@ -5,7 +5,7 @@
 
 [2. Cách tạo máy ảo trên VMWare Workstation](#huong-dan)
 
-## 1. Tổng quan về VMWare Workstation
+## <a name = "tong-quan"></a> 1. Tổng quan về VMWare Workstation
  
 - VMware Workstation là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy PC.
   
@@ -22,7 +22,7 @@
 
 ![Imgur](https://i.imgur.com/tm2eSp6.png")
 
-## 2. Cách tạo máy ảo trên VMware Workstation
+## <a name = "huong-dan"></a> 2. Cách tạo máy ảo trên VMware Workstation
 
 - Bước 1: Trên màn hình chính, chọn `Create a new Virtual Machine` để tạo máy ảo mới
 
